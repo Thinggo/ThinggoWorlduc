@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/rel_friend_list_btm"
+        android:orientation="vertical" >
+
+        <include layout="@layout/layout_app_titlebar" />
+
+        <ListView
+            android:id="@+id/friend_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_friend_list_btm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/txt_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_toLeftOf="@+id/btn_check_all"
+            android:hint="请输入留言内容"
+            android:layout_alignParentLeft="true"/>
+
+        <CheckBox
+            android:id="@+id/btn_check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/btn_leave_word"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/btn_leave_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+            android:text="留言" />
+    </RelativeLayout>
+</RelativeLayout>

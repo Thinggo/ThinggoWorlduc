@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">世界大学城客户端</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_word_list">留言列表</string>
+    <string name="buffer_notice">正在为您加载数据...</string>
+    <string name="title_activity_word_reply_list">留言回复情况</string>
+    <string name="title_activity_teaching_group_list">我加入的教研室列表</string>
+    <string name="title_activity_topic_list">教研室主题列表</string>
+    <string name="title_activity_blog_article">博客文章列表</string>
+    <string name="title_activity_notice_message">通知消息</string>
+    <string name="title_activity_friend_list">好友列表</string>
+    <string name="title_activity_topic">主题列表</string>
+    <string name="title_activity_friend_group_list">好友分组列表</string>
+    <string name="title_activity_blog_category_list">文章栏目列表</string>
+    <string name="title_activity_publish_blog_article">发布日志</string>
+    <string name="title_activity_user_suggest">用户建议</string>
+    <string name="title_activity_support_author">支持作者</string>
+    <string name="offerList">推荐列表(综合)</string>
+    <string name="popAd">插屏广告</string>
+    <string name="gameOfferList">推荐列表(游戏)</string>
+    <string name="appOfferList">推荐列表(软件)</string>
+    <string name="spendPoints">消费积分(-10)</string>
+    <string name="awardPoints">奖励积分(+10)</string>
+    <string name="feedback">用户反馈</string>
+    <string name="moreApps">自家应用(列表)</string>
+    <string name="ownAppDetail">自家应用(单条)</string>
+    <string name="diyAd">自定义广告(单条)</string>
+    <string name="diyAdList">自定义广告(列表)</string>
+    <string name="checkUpdate">检查新版本</string>
+    <string name="funAd">功能广告(浏览器)</string>
+    <string name="title_activity_friend_blog_category">FriendBlogCategoryActivity</string>
+    <string name="title_activity_blog_article_list">BlogArticleListActivity</string>
+
+</resources>

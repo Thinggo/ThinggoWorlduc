@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csmzxy.thinggo.worlduc"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.14" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="cn.waps.OffersWebView"
+            android:configChanges="keyboardHidden|orientation" />
+        <!-- 以下属性为应⽤ID,从万普后台获取 -->
+        <meta-data
+            android:name="WAPS_ID"
+            android:value="2478717e9f828ada95a7ded613c1e75c" />
+
+        <!-- 以下属性为分发渠道ID,编码表参⻅本⽂档末附表 -->
+        <meta-data
+            android:name="WAPS_PID"
+            android:value="QQ" />
+
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.WordListActivity"
+            android:label="@string/title_activity_word_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.WordReplyListActivity"
+            android:label="@string/title_activity_word_reply_list"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.TeachingGroupListActivity"
+            android:label="@string/title_activity_teaching_group_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.TopicListActivity"
+            android:label="@string/title_activity_topic_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.MiniBlogListActivity"
+            android:label="@string/title_activity_blog_article" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.NoticeMessageListActivity"
+            android:label="@string/title_activity_notice_message" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.FriendRequestListActivity"
+            android:label="@string/title_activity_friend_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.TopicActivity"
+            android:label="@string/title_activity_topic"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.FriendGroupListActivity"
+            android:label="@string/title_activity_friend_group_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.FriendListActivity"
+            android:label="@string/title_activity_friend_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.BlogCategoryListActivity"
+            android:label="@string/title_activity_blog_category_list" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.PublishBlogArticleActivity"
+            android:label="@string/title_activity_publish_blog_article" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.UserSuggestActivity"
+            android:label="@string/title_activity_user_suggest" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.ad.SoftSupportActivity"
+            android:label="@string/title_activity_support_author" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.BlogArticleActivity"
+            android:label="@string/title_activity_blog_article"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.FriendBlogCategoryActivity"
+            android:label="@string/title_activity_friend_blog_category" >
+        </activity>
+        <activity
+            android:name="com.csmzxy.thinggo.worlduc.BlogArticleListActivity"
+            android:label="@string/title_activity_blog_article_list" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+# view AndroidManifest.xml #generated:31
+-keep class cn.waps.OffersWebView { <init>(...); }
+
+# view res/layout/slidewall.xml #generated:9
+-keep class cn.waps.extend.SlideWallDrawer { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.csmzxy.thinggo.worlduc.BlogArticleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.csmzxy.thinggo.worlduc.BlogArticleListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.csmzxy.thinggo.worlduc.BlogCategoryListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.csmzxy.thinggo.worlduc.FriendBlogCategoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.csmzxy.thinggo.worlduc.FriendGroupListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.csmzxy.thinggo.worlduc.FriendListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.csmzxy.thinggo.worlduc.FriendRequestListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.csmzxy.thinggo.worlduc.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.csmzxy.thinggo.worlduc.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.csmzxy.thinggo.worlduc.MiniBlogListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.csmzxy.thinggo.worlduc.NoticeMessageListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.csmzxy.thinggo.worlduc.PublishBlogArticleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.csmzxy.thinggo.worlduc.TeachingGroupListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.csmzxy.thinggo.worlduc.TopicActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.csmzxy.thinggo.worlduc.TopicListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.csmzxy.thinggo.worlduc.UserSuggestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.csmzxy.thinggo.worlduc.WordListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.csmzxy.thinggo.worlduc.WordReplyListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.csmzxy.thinggo.worlduc.ad.SoftSupportActivity { <init>(...); }
+

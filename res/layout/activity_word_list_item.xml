@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:minHeight="?android:attr/listPreferredItemHeight" >
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp" >
+
+        <ImageView
+            android:id="@+id/headimg"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />    
+        <TextView
+                android:id="@+id/replycnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textSize="10sp"
+                android:layout_marginTop="2dp"
+                android:text="回复次数：0" />              
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linear1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/linear1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/sublinear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+			android:id="@+id/author"
+ 			android:layout_width="80dp"
+       		android:layout_height="wrap_content" 
+       		android:layout_alignParentTop="true"
+       		android:layout_alignParentLeft="true"
+       		android:ellipsize="end"
+       		android:singleLine="true"
+       		android:text="noname"/>      			
+	        <TextView
+				android:id="@+id/location"
+	 			android:layout_width="wrap_content"
+	       		android:layout_height="wrap_content"
+	       		android:layout_marginLeft="5dp"
+	       		android:layout_alignParentTop="true"
+	       		android:layout_toRightOf="@+id/author"
+	       		android:text="hunan" />
+	        
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"  />   
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/sublinear2"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+			                
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="no content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

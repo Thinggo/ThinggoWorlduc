@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" >
+            </FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="@null"
+                android:scrollbars="none" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff" >
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/bottombg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_notice_message"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_notice_message"
+                            android:button="@null"
+                            android:checked="true" />
+
+                        <RadioButton
+                            android:id="@+id/radio_friend_request"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_friend_request"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_reply_word"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_reply_word"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_mygroup"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_mygroup"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_word"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_write_word"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_article"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_write_article"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_write_weibo"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_write_weibo"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_friend_article"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_friend_article"
+                            android:button="@null" />
+
+                        <RadioButton
+                            android:id="@+id/radio_support_author"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/tab_selector_support_author"
+                            android:button="@null" />
+                    </RadioGroup>
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

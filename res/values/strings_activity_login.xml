@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_login">用户登录</string>
+	<string name="action_sign_in_register">登录</string>
+	<string name="prompt_email">请输入大学城空间账号</string>
+	<string name="prompt_password">请输入密码</string>
+	<string name="error_field_required">不能为空</string>
+	<string name="error_invalid_email">无效的账号</string>
+	<string name="error_incorrect_password">用户名或密码错误</string>
+	<string name="login_progress_signing_in">正在登录...</string>
+	<string name="app_notice">友情提醒：\r\n本软件用于在手机上访问世界大学城常用功能。本软件为自由软件，任何人可以使用，但使用者因使用本软件而造成的任何损失由使用者自己承担全部责任。\r\n\r\n为了节省流量，在移动数据网络下，对一些好友分组、好友列表、教研群组、文章栏目和图片进行了缓存处理\r\n\r\n本软件已实现的功能有：\r\n(1)查看通知信息\r\n(2)同意好友请求\r\n(3)查看并回复好友留言\r\n(4)发表微博\r\n(5)查看我的群组主题并参与主题讨论\r\n(6)发布纯文字的日志\r\n(7)给好友留言\r\n\r\n开发人：\r\n民政软件学院吴名星\r\nQQ：171031011</string>
+</resources>

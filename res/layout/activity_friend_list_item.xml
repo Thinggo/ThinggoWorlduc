@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+            android:id="@+id/friend_list_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp" 
+            android:layout_margin="3dp"
+            android:layout_alignParentLeft="true"/>    
+   	<TextView
+			android:id="@+id/firend_list_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ellipsize="end"
+			android:gravity="center_vertical"
+			android:layout_toRightOf="@+id/friend_list_img" />
+   	
+   	<CheckBox
+            android:id="@+id/friend_list_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+ 
+</RelativeLayout>
